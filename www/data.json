@@ -1,0 +1,38 @@
+﻿[
+  {
+    "id": 44,
+    "name": "Recipe 1",
+    "calories": 88,
+    "rating": 0
+  },
+  {
+    "id": 45,
+    "name": "Recipe 2",
+    "calories": 10,
+    "rating": 1
+  },
+  {
+    "id": 46,
+    "name": "Recipe 3",
+    "calories": 20,
+    "rating": 2
+  },
+  {
+    "id": 47,
+    "name": "Recipe 4",
+    "calories": 27,
+    "rating": 3
+  },
+  {
+    "id": 48,
+    "name": "Recipe 5",
+    "calories": 50,
+    "rating": 4
+  },
+  {
+    "id": 49,
+    "name": "Recipe 6",
+    "calories": 60,
+    "rating": 5
+  }
+]

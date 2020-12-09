@@ -1,0 +1,3 @@
+﻿<span ng-repeat="star in stars track by $index">
+    <md-icon style="color:#FFF; cursor: pointer;" ng-click="setRating({value: $index + 1})">{{star}}</md-icon>
+</span>

@@ -1,0 +1,70 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    -webkit-touch-callout: none;
+    user-select: none;
+    background-color: #000;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI';
+    font-size: 12px;
+}
+
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    
+}
+
+@media screen and (orientation: portrait) {
+}
+
+@media screen and (orientation: landscape) {
+}
+
+.md-48 {
+  width: 48px;
+  height: 48px;
+  font-size: 48px;
+ }
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+.md-subhead{
+    color:white !important;
+}
+
+.md-subheader-inner {
+    padding: 0 !important;
+}
+
+md-card {
+    background-size: cover; 
+    text-shadow: black 0.1em 0.1em 0.4em !important;
+    color:white !important;
+    min-height: 33%; 
+    box-shadow: 5px 5px 5px black;
+}
+
+md-content {
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
+
+.md-subheader {
+    padding: 16px 0 16px 16px;
+}
+
+a.md-button {
+    margin: 0;
+    padding: 0;
+}

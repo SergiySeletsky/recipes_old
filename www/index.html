@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="AppModule">
+<head>
+    <!--<base href="/" />-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <title>Recipes</title>
+</head>
+<body ng-controller="AppCtrl" md-swipe-left="openRight()" md-swipe-right="openLeft()">
+
+    <div layout="column" style="height: 100%;">
+
+        <section layout="row" flex="" class="layout-row flex">
+
+            <left-menu></left-menu>
+            
+            <recipe-app style="width: 100%;"></recipe-app>
+
+            <right-menu></right-menu>
+
+        </section>
+
+    </div>
+    
+    <link rel="stylesheet" href="css/angular-material.min.css">
+    <link rel="stylesheet" href="css/material-icons.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-animate.min.js"></script>
+    <script src="lib/angular-aria.min.js"></script>
+    <script src="lib/angular-messages.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+    <script src="lib/angular-material.min.js"></script>
+
+    <script src="scripts/index.js"></script>
+    <script src="scripts/recipeApp.js"></script>
+    <script src="scripts/leftMenu.js"></script>
+    <script src="scripts/rightMenu.js"></script>
+
+    <script src="scripts/recipes.js"></script>
+    <script src="scripts/myRecipes.js"></script>
+    <script src="scripts/favorites.js"></script>
+    <script src="scripts/makeRecipe.js"></script>
+    <script src="scripts/recipeDetails.js"></script>
+    <script src="scripts/rating.js"></script>
+</body>
+</html>

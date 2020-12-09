@@ -1,0 +1,46 @@
+﻿<md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')" style="height: 100%;">
+
+    <md-toolbar class="md-tall">
+        <md-button ng-click="close()" class="md-icon-button" style="margin-right:0; margin-left:auto; z-index:999;">
+            <md-icon>chevron_left</md-icon>
+        </md-button>
+        <div layout="column" class="inset" style="top:0; position:absolute;">
+            <div>
+                <md-icon class="md-48">account_circle</md-icon>
+            </div>
+            <span></span>
+            <div>Sergey Seletsky</div>
+            <div style="font-size:16px;">sergeyseletsky@gmail.com</div>
+        </div>
+    </md-toolbar>
+
+    <md-list role="list">
+
+        <md-list-item ng-repeat="item in menu" role="listitem" ui-sref="{{::item.link}}" ng-click="close()">
+            <div class="inset">
+                <md-icon>{{::item.icon}}</md-icon>
+            </div>
+            <div class="inset">
+                {{::item.title}}
+            </div>
+        </md-list-item>
+      
+        <md-divider></md-divider>
+
+        <h2 class="md-subheader">
+            <span class="md-subheader-content">
+                <span>Management</span>
+            </span>
+        </h2>
+        
+        <md-list-item ng-repeat="item in admin" role="listitem" ui-sref="{{::item.link}}" ng-click="close()">
+            <div class="inset">
+                <md-icon>{{::item.icon}}</md-icon>
+            </div>
+            <div class="inset">
+                {{::item.title}}
+            </div>
+        </md-list-item>
+    </md-list>
+
+</md-sidenav>
